@@ -22,5 +22,8 @@ TARGET_KERNEL_CONFIG := jeter_defconfig
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Security patch level
+VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
+
 # Inherit the proprietary files
 -include vendor/motorola/jeter/BoardConfigVendor.mk
