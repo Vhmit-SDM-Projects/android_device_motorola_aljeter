@@ -10,6 +10,7 @@
 DEVICE_PATH := device/motorola/jeter
 
 # Kernel
+TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := jeter_defconfig
 
 # Inherit the proprietary files
