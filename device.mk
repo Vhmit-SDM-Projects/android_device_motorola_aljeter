@@ -13,5 +13,9 @@ $(call inherit-product, device/motorola/msm8937-common/msm8937.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1440
+TARGET_SCREEN_WIDTH := 720
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/jeter/jeter-vendor.mk)

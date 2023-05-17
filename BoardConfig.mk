@@ -12,6 +12,9 @@ DEVICE_PATH := device/motorola/jeter
 # Assert
 TARGET_OTA_ASSERT_DEVICE := jeter,aljeter
 
+# Display
+TARGET_SCREEN_DENSITY := 300
+
 # Kernel
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := jeter_defconfig
