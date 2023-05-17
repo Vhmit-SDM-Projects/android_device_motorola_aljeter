@@ -18,5 +18,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Soong Namespace
+PRODUCT_SOONG_NAMESPACES += \
+    device/motorola/jeter
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/jeter/jeter-vendor.mk)
