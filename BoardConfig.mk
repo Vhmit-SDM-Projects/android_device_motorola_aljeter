@@ -9,6 +9,9 @@
 
 DEVICE_PATH := device/motorola/jeter
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := jeter,aljeter
+
 # Kernel
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := jeter_defconfig
