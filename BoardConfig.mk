@@ -15,6 +15,9 @@ TARGET_OTA_ASSERT_DEVICE := jeter,aljeter
 # Display
 TARGET_SCREEN_DENSITY := 300
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
+
 # Kernel
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := jeter_defconfig
@@ -24,6 +27,9 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # Security patch level
 VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
+
+# SELinux
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit the proprietary files
 -include vendor/motorola/jeter/BoardConfigVendor.mk
