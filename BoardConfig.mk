@@ -19,5 +19,8 @@ TARGET_SCREEN_DENSITY := 300
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := jeter_defconfig
 
+# Properties
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Inherit the proprietary files
 -include vendor/motorola/jeter/BoardConfigVendor.mk
