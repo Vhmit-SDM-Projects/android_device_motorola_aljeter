@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2023 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -20,9 +20,9 @@ TARGET_GAPPS_ARCH := arm64
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_jeter
 PRODUCT_DEVICE := jeter
-PRODUCT_BRAND := motorola
+PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G6 Play
-PRODUCT_MANUFACTURER := motorola
+PRODUCT_MANUFACTURER := Motorola
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST += \
     ro.product.model \
