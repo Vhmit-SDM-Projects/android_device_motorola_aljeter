@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 1440
 TARGET_SCREEN_WIDTH := 720
 
+# Releasetools script
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/check_device.sh:install/bin/check_device.sh
+
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
