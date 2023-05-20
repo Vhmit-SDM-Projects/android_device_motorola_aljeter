@@ -704,3 +704,13 @@ vendor/etc/qdcm_calib_data_mipi_mot_video_djn_hd_571.xml
 vendor/etc/qdcm_calib_data_mipi_mot_video_tianma_hd_570.xml
 vendor/etc/qdcm_calib_data_mipi_mot_video_tianma_hd_571.xml
 vendor/etc/qdcm_calib_data_mipi_mot_video_wistron_hd_570.xml
+
+# Fingerprint
+vendor/lib64/vendor.egistec.hardware.fingerprint@2.0.so
+
+# Sensors
+vendor/bin/sensors.qti
+vendor/lib/sensors.rp.so
+vendor/lib/sensors.ssc.so
+vendor/lib64/sensors.rp.so
+vendor/lib64/sensors.ssc.so
