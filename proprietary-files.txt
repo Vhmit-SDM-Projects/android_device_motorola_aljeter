@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from jeter-user 9 PPPS29.118-57-5 d3be1 release-keys
+# All unpinned blobs below are extracted from aljeter-user 9 PPPS29.55-35-18-7 6a0d0 release-keys
 
 # Audio ACDB
 vendor/etc/acdbdata/Bluetooth_cal.acdb

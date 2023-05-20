@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/jeter
+DEVICE_PATH := device/motorola/aljeter
 
 # Inherit from msm8937-common
 $(call inherit-product, device/motorola/msm8937-common/msm8937.mk)
@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
 
 # Soong Namespace
 PRODUCT_SOONG_NAMESPACES += \
-    device/motorola/jeter
+    device/motorola/aljeter
 
 # Thermal
 PRODUCT_COPY_FILES += \
@@ -55,4 +55,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal/thermal-engine-aljeter.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-aljeter.conf
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/jeter/jeter-vendor.mk)
+$(call inherit-product, vendor/motorola/aljeter/aljeter-vendor.mk)
