@@ -18,6 +18,6 @@ export DEVICE=aljeter
 export DEVICE_COMMON=msm8937-common
 export VENDOR=motorola
 
-"./../../${VENDOR}/${BOARD_COMMON}/extract-files.sh" "$@"
+export DEVICE_BRINGUP_YEAR=2023
 
-DEVICE_BLOB_ROOT="../../../vendor/${VENDOR}/${DEVICE}/proprietary"
+"./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

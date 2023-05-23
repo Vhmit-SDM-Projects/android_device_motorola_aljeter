@@ -12,4 +12,6 @@ export DEVICE=aljeter
 export DEVICE_COMMON=msm8937-common
 export VENDOR=motorola
 
-"./../../${VENDOR}/${BOARD_COMMON}/setup-makefiles.sh" "$@"
+export DEVICE_BRINGUP_YEAR=2023
+
+"./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
