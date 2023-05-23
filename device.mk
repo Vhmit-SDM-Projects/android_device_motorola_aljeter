@@ -8,7 +8,7 @@
 $(call inherit-product, device/motorola/msm8937-common/msm8937.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/motorola/jeter/jeter-vendor.mk)
+$(call inherit-product, vendor/motorola/aljeter/aljeter-vendor.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1440
@@ -22,7 +22,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
-    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml
 
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
-    $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+    $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

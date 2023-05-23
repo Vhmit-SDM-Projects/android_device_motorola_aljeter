@@ -8,8 +8,8 @@
 set -e
 
 # Required!
-export DEVICE=jeter
-export DEVICE_COMMON=msm8937-common
+export DEVICE=aljeter
+export BOARD_COMMON=msm8937-common
 export VENDOR=motorola
 
 export DEVICE_BRINGUP_YEAR=2019
