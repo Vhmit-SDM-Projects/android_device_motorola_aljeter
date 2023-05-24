@@ -40,4 +40,4 @@ VENDOR_SECURITY_PATCH := $(PLATFORM_SECURITY_PATCH)
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
-include vendor/motorola/jeter/BoardConfigVendor.mk
+include vendor/motorola/aljeter/BoardConfigVendor.mk
