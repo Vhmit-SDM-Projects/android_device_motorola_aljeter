@@ -10,10 +10,10 @@
 DEVICE_PATH := device/motorola/aljeter
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := jeter,aljeter
+TARGET_OTA_ASSERT_DEVICE := aljeter
 
 # Display
-TARGET_SCREEN_DENSITY := 320
+TARGET_SCREEN_DENSITY := 300
 
 # Hals
 TARGET_QCOM_AUDIO_VARIANT := caf-msm8996
